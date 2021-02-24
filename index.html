@@ -43,20 +43,27 @@
       <p class="text-nowrap text-capitalize">No Wrap</p>
 
       <!-- Quick Floats -->
-      <del><div class="pull-right">Div floated to right</div>
-      <div class="pull-left">Div floated to left</div></del>
+      <del
+        ><div class="pull-right">Div floated to right</div>
+        <div class="pull-left">Div floated to left</div></del
+      >
 
       <!-- Clear Float -->
       <div class="clearfix"></div>
-      <hr>
+      <hr />
 
       <!-- BlockQuote -->
       <blockquote class="blockquote text-center">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nam,</p>
-        <footer class="blockquote-footer">Quote by <cite title="John Doe">John Doe</cite></footer>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          nam,
+        </p>
+        <footer class="blockquote-footer">
+          Quote by <cite title="John Doe">John Doe</cite>
+        </footer>
       </blockquote>
 
-      <hr>
+      <hr />
 
       <!-- Lists -->
       <ul class="list-unstyled">
@@ -73,11 +80,64 @@
         <li class="list-inline-item">Item one</li>
       </ul>
 
-      <hr>
+      <hr />
 
       <!-- Code -->
-      <code></code>
+      <code>&lt;h1&gt;Heading Text &lt;/h1&gt;</code>
+      <br />
+      Change Directory with <kbd>cd</kbd>
+      <br />
+      To edit setting, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+
+      <hr />
+
+      <!-- Contextual Colors -->
+      <p class="text-primary">Hello World</p>
+      <p class="text-success">Hello World</p>
+      <p class="text-info">Hello World</p>
+      <p class="text-danger">Hello World</p>
+      <p class="text-warning">Hello World</p>
+      <p class="text-muted">Hello World</p>
+
+      <hr />
+
+      <!-- Contextual Background Colors -->
+      <p class="bg-primary">Hello World</p>
+      <p class="bg-success">Hello World</p>
+      <p class="bg-info">Hello World</p>
+      <p class="bg-danger">Hello World</p>
+      <p class="bg-warning">Hello World</p>
+      <p class="bg-muted">Hello World</p>
     </div>
+
+    <div class="container">
+      <!-- Buttons -->
+      <button class="btn btn-default">Default button</button>
+      <a href="#" class="btn btn-default" role="button">Default Link</a>
+      <input type="submit" class="btn btn-default" value="submit" />
+
+      <hr />
+
+      <!-- Contextual Buttons -->
+      <button class="btn btn-default">Default button</button>
+      <button class="btn btn-Primary">Primary button</button>
+      <button class="btn btn-success">Success button</button>
+      <button class="btn btn-info">Info button</button>
+      <button class="btn btn-warning">Warning button</button>
+      <button class="btn btn-danger">Danger button</button>
+      <button class="btn btn-link">Link button</button>
+
+      <hr>
+
+      <!-- Button Size -->
+      <button class="btn btn-success btn-lg">Large Success button</button>
+      <button class="btn btn-primary btn-sm">Small Primary button</button>
+      <button class="btn btn-danger btn-xs" disabled="disabled">Xtra Small Danger disbaled button</button>
+    </div>
+
+    <hr />
+
+    <div style="height: 400px"></div>
 
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
