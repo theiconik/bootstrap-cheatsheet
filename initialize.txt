@@ -1,3 +1,15 @@
 //Learning Bootstrap by Traversy Media crash course
-
+//NOTES FOR BOOTSTRAP 4:
+1. page-header alternative in bootstrap4: class="pb-2 mt-4 mb-2 border-bottom"
+2. pull-right => float-right
+3. blockquote-reverse can be imitated with "blockquote text-right"
+4. list-inline -> add class="list-inline-item" to each one of your <li> elements and that'll work.
+5. Button sizing: btn-xs is not available in bootstrap4, there are only btn-lg and btn-sm classes.
+6. Instead of <p class="help-block">text</p>, use <small class="form-text text-muted">text</small>
+7. table-condensed -> table-sm
+8. for row(tr) colouring use 'table-primary', 'table-danger', etc, just like the buttons
+9. Panels in bootstrap 4 seem to have become Cards.
+10. progress-bar-success -> bg-success
+11. animated progress bar(active) -> progress-bar-animated
+12. thumbnail -> img-thumbnail, img-rounded -> rounded, img-circle -> rounded-circle
 Peace out!❤ 
